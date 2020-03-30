@@ -1,0 +1,237 @@
+/* header */
+.header .navbar {
+    background: #009B4C !important;
+}
+.header .navbar .icon{
+    color: white;
+    font-size: 24px;
+}
+.header .navbar .title{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.header .navbar .desc{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.header .navbar .active{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+.header .navbar li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.header .navbar a{
+    color: white !important;
+}
+
+
+/* contact */
+.contact h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 69px;
+    color: #00501D;
+}
+.contact p{
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 40px;
+    color: #333333;
+}
+.box{
+    background: white;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 749px;
+    height: 700px;
+    position: relative;
+    padding: 40px;
+    margin-top: 40px;   
+    margin-left: 537px;
+}
+.bg{
+    width: 50%;
+}
+.contact form input{
+    height: 52px;
+}
+.contact form input, .contact form textarea{
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.contact form label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 10px;
+}
+.contact .btn-success{
+    background: #60D179;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 13px 0;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+/* footer */
+.footer{
+    padding-top: 80px;
+    margin-top: 78px;
+}
+.footer h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    color: #00501D;
+    margin-top: 100px;
+}
+.footer  p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+}
+.footer .contact h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #009B4C;
+    margin-bottom: 16px;
+}
+.footer .contact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+}
+.footer .support img{
+    margin-top: 16px;
+}
+.footer .copyright{
+    text-align: center;
+    background: linear-gradient(191.58deg, #023B09 0%, #009B4C 61.61%);
+    padding: 15px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.footer .copyright a{
+    color: yellow;
+}
+
+
+@media (min-width: 768px){
+    .box{
+        margin-left: auto;
+        width: 50% !important;
+        margin-right: 10px;
+    }
+    .bg{
+        width: 100%;
+    }
+    .box p{
+        margin-bottom: 5px;
+    }
+    .footer-icon .media img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+    .footer .contact h4{
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 576px){
+    .box{
+        margin-left: auto;
+        width: 50%;
+        margin-right: 10px;
+    }
+    .bg{
+        width: 100%;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box p{
+        margin-bottom: 5px;
+    }
+    .contact form label{
+        font-size: 16px;
+    }
+    .footer-icon .media img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+    .footer .contact h4{
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px){
+    .box{
+        background: white;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        width: 749px;
+        height: 700px;
+        position: relative;
+        padding: 40px;
+        margin-top: 40px;   
+        margin-left: 45%;
+    }
+    .bg{
+        width: 50%;
+    }
+    .box h2{
+        font-size: 46px;
+    }
+    .box p{
+        margin-bottom: 40px;
+    }
+    .contact form label{
+        font-size: 18px;
+    }
+}
