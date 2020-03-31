@@ -86,14 +86,14 @@
     right: -25px;
     left: auto;
 }
-.slick-prev:before
+/* .slick-prev:before
 {
     content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
-}
+} */
 
 .slick-next
 {
@@ -104,14 +104,14 @@
     right: auto;
     left: -25px;
 }
-.slick-next:before
+/* .slick-next:before
 {
     content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
     content: '←';
-}
+} */
 
 /* Dots */
 .slick-dotted.slick-slider
@@ -141,7 +141,7 @@
 
     width: 20px;
     height: 20px;
-    margin: 0 5px;
+    margin: 120px 5px 0 5px;
     padding: 0;
 
     cursor: pointer;
@@ -191,7 +191,7 @@
     text-align: center;
 
     opacity: .25;
-    color: black;
+    color: #00AF00;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -199,5 +199,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: black;
+    color: #00AF00;
 }
