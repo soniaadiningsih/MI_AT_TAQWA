@@ -44,7 +44,7 @@
                       <h5 class="mt-0">At-Taqwa Bondowoso</h5>
                     </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white !important;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon"><i class="fas fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-lg-8 col-md-6 col-sm-12 img">
                     <div class="img-one img-fluid">
-                        <img src="assets/img/about1.png" alt="">
+                        <img src="assets/img/about1.png" alt="" class="img-fluid">
                         <div class="youtube">
                             <a href="https://youtu.be/jsnUVV9rtjM" data-fancybox>
                                 <img src="assets/img/play.png" alt="" class="img-fluid"/>
@@ -133,32 +133,29 @@
     <section class="galeri" id="galeri">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 desc">
+                <div class="col-lg-2 col-md-12 col-sm-12 desc">
                     <h3>Galeri</h3>
                     <p>MI AT - TAQWA Bondowoso adalah Lembaga Pendidikan favorit dikota Bondowoso dengan menyelenggarakan pendidikan dan pembelajaran yang berorientasi pada terbentuknya peserta didik yang beriman, bertaqwa, dan berakhlaq mulia atas dasar nilai-nilai Islam ala Ahlus Sunnah Wal Jama’ah an Nahdliyah.</p>
                     <a href="#" class="btn btn-success">Selengkapnya <i class="fa fa-arrow-right"></i> </a>
                 </div>
-                <div class="col-lg-9 col-md-6 col-sm-12 img">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-6 col-sm-12">
-                            <img src="assets/img/galeri1.png" alt="" class="img-fluid">
-                            <div class="youtube">
-                                <a href="https://youtu.be/jsnUVV9rtjM" data-fancybox>
-                                    <img src="assets/img/play.png" alt="" style="margin-top: -300px; margin-left: 330px;"/>
-                                </a>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <img src="assets/img/galeri3.png" alt="" class="img-fluid img-3">
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <img src="assets/img/galeri4.png" alt="" class="img-fluid img-4">
-                                </div>
-                            </div>
+                <div class="col-lg-10 col-md-12 col-sm-12 img">
+                    <div class="row img-1">
+                        <div class="col-sm-8">
+                            <img src="assets/img/galeri1.png" alt="" class="img-fluid galeri1">
                         </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12">
-                            <img src="assets/img/galeri2.png" alt="" class="img-fluid img-2">
-                            <img src="assets/img/galeri5.png" alt="" class="img-fluid img-5">
+                        <div class="col-sm-4">
+                            <img src="assets/img/galeri2.png" alt="" class="img-fluid galeri2">
+                        </div>
+                    </div>
+                    <div class="row img-2">
+                        <div class="col-sm">
+                            <img src="assets/img/galeri3.png" alt="" class="img-fluid galeri3">
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/img/galeri4.png" alt="" class="img-fluid galeri4">
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/img/galeri5.png" alt="" class="img-fluid galeri5">
                         </div>
                     </div>
                 </div>
@@ -174,7 +171,7 @@
             <form action="/action_page.php">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="text" class="form-control" id="email" value="botpablo@gmai" style="width: 380px; height: 52px;">
+                    <input type="text" class="form-control email" id="email" value="botpablo@gmai" style="height: 52px;">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Pertanyaan</label>
@@ -214,6 +211,22 @@
             dots: true,
             autoplay: false,
             autoplaySpeed: 0,
+            responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 1
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                slidesToShow: 1
+            }
+            }
+        ]
         });
     </script>
     
