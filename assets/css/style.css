@@ -145,13 +145,6 @@ body{
     margin-left: 50px;
     position: absolute;
 }
-.about .img .img-two::before{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: green;
-}
 .youtube{
     position: relative;
     z-index: 1;
@@ -207,6 +200,26 @@ body{
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 20px;
+}
+.galeri .img .img-1 .galeri1{
+    position: relative;
+}
+.galeri .img .img-1 .galeri1::before{
+    position: absolute;
+    width: 95%;
+    height: 85%;
+    top: 0;
+    left: 15px;
+    background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
+    opacity: 0.6;
+    content: '';
+    z-index: 1;
+    padding: 0;
+}
+.galeri .img .img-1 .youtube{
+    top: -150px;
+    display: block;
+    text-align: center;
 }
 
 /* kontak */
@@ -317,6 +330,16 @@ body{
         width: 70%;
         margin-top: -180px;
     }
+    .about .img .img-two::before{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
+        opacity: 0.6;
+        content: '';
+    }
     .about .img .youtube{
         margin-left: 20%;
         margin-right: 0;
@@ -332,15 +355,29 @@ body{
         display: block;
         text-align: center;
     }
-    .galeri .img .youtube{
-        margin-left: -20%;
-        margin-right: 0;
-    }
     .galeri .img .img-2, .img-4{
         margin-top: 25px;
     }
     .galeri .desc .btn-success{
         margin-bottom: 30px;
+    }
+    .galeri .img .img-1 .galeri1::before{
+        position: absolute;
+        width: 91%;
+        height: 76%;
+        top: 0;
+        left: 15px;
+        background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
+        opacity: 0.6;
+        content: '';
+        z-index: 1;
+        padding: 0;
+    }
+    .galeri .img .img-1 .youtube{
+        top: -100px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
     }
 
     /* kontak */
@@ -381,10 +418,36 @@ body{
     .galeri .desc .btn-success{
         margin-bottom: 30px;
     }
-
+    .galeri .img .img-1 .galeri1::before{
+        position: absolute;
+        width: 94%;
+        height: 81%;
+        top: 0;
+        left: 15px;
+        background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
+        opacity: 0.6;
+        content: '';
+        z-index: 1;
+        padding: 0;
+    }
+    .galeri .img .img-1 .youtube{
+        top: -120px;
+        display: block;
+        text-align: center;
+    }
     .about .img .youtube{
         margin-left: 10%;
-        margin-top: 20px;
+        top: -20px;
+    }
+    .about .img .img-two::before{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
+        opacity: 0.6;
+        content: '';
     }
 }
 
@@ -475,7 +538,7 @@ body{
     /* about */
     .about{
         margin: 58px 80px 54px 80px;
-        padding: 58px 0 85px 0;
+        padding: 58px 0 90px 0;
         background: #FFFFFF;
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
         border-radius: 12px;
@@ -522,28 +585,31 @@ body{
         margin-right: 20px;
         color: #26C699;
     }
-    
     .about .img .img-one{
         position: relative;
         margin-left: 358px;
     }
     .about .img .img-two{
-        margin-top: -200px;
+        margin-top: -300px;
         margin-left: 50px;
-        position: absolute;
+        position: relative;
     }
     .about .img .img-two::before{
-        content: '';
-        display: block;
-        width: 100%;
+        position: absolute;
+        width: 96%;
         height: 100%;
-        background-color: green;
+        top: 0;
+        left: 0;
+        background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
+        opacity: 0.6;
+        content: '';
     }
     .about .img .youtube{
         position: relative;
         z-index: 1;
         margin-right: 100%;
         display: flex;
+        top: -50px;
         margin-left: -80px;
     }
     
@@ -609,6 +675,24 @@ body{
     .galeri .desc .btn-success{
         margin-bottom: 0;
     }
+    .galeri .img .img-1 .galeri1::before{
+        position: absolute;
+        width: 95%;
+        height: 85%;
+        top: 0;
+        left: 15px;
+        background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
+        opacity: 0.6;
+        content: '';
+        z-index: 1;
+        padding: 0;
+    }
+    .galeri .img .img-1 .youtube{
+        top: -150px;
+        display: block;
+        text-align: center;
+    }
+    
     
     /* kontak */
     .kontak{
