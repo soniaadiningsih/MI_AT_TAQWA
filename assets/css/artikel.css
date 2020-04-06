@@ -43,18 +43,161 @@
 
 
 
-
-.artikel .desc{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    margin-top: -100px !important;
+/* artikel terbaru */
+.artikel .artikel_terbaru h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #00AF00;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
+.artikel .artikel_terbaru .img{
+    position: relative;
+}
+.artikel .artikel_terbaru .img::before{
+    position: absolute;
+    background: #000000;
+    opacity: 0.5;
+    border-radius: 4px;
+    content: '';
+    z-index: 1;
+    padding: 0;
+}
+.artikel .artikel_terbaru .desc{
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    padding: 0 3%;
+}
+.artikel .artikel_terbaru .desc h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+    margin-top: 24px;
+}
+.artikel .artikel_terbaru .desc .date{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F9F9;
+}
+.artikel .artikel_terbaru .btn-success{
+    background: linear-gradient(354.43deg, #023B09 -67.3%, #00AF00 79.93%);
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7F9F9;
+    padding: 8px 27px;
+}
+
+/* artikel menarik */
+.artikel_menarik h2{
+    margin-top: 56px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #00AF00;
+}
+.overlay-slide {
+	position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.overlay-slide:hover .desc {
+    transform: translate(0, 0);
+	transition: all 0.2s ease-in;
+}
+.overlay-slide .desc {
+	position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    transform: translate(0, 100%);
+    background: linear-gradient(356.56deg, #023B09 -67.3%, #00AF00 79.93%);
+    transition: all 0.2s ease-in;
+    width: 95%;
+    height: 40%;
+    padding: 20px 10px;
+}
+.overlay-slide h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7F9F9;
+    text-align: center;
+}
+.media-body h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.media-body p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+.media-body p .link{
+    color: #00AF00;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.carousel-indicators li{
+    border-radius: 50% !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #E5E5E5 !important;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators {
+    top: 100% !important;
+}
+.carousel-indicators .active{
+    background-color: #00AF00 !important;
+}
+
 
 
 /* footer */
 .footer {
     background: linear-gradient(204.93deg, #023B09 -8.53%, #00AF00 25.74%);
+    margin-top: 45px;
 }
 .footer p{
     font-family: 'Poppins';

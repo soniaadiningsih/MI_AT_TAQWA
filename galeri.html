@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assets/css/galeri.css">
 
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.min.css">
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
@@ -112,45 +113,203 @@
                     </div>
                 </div>
             </div>
-            <div class="slider">
-                <div class="row ml-0 mr-0">
-                    <div class="col-md-6 col-sm-12 ml-0 mr-0">
-                        <div class="overlay-slide">
-                            <img src="assets/img/gal2.png" alt="" class="img-fluid galeri2">
-                            <div class="desc">
-                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
-                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-sm">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row ml-0 mr-0">
+                            <div class="col-md-6 col-sm-12 ml-0 mr-0">
                                 <div class="overlay-slide">
-                                    <img src="assets/img/gal3.png" alt="" class="img-fluid galeri3">
+                                    <img src="assets/img/gal2.png" alt="" class="img-fluid galeri2">
                                     <div class="desc">
                                         <small class="text-muted mt-0">Ahad, 21-01-2020</small>
                                         <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="overlay-slide">
-                                    <img src="assets/img/gal4.png" alt="" class="img-fluid galeri4">
-                                    <div class="desc">
-                                        <small class="text-muted mt-0">Ahad, 21-01-2020</small>
-                                        <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                <div class="row mt-4">
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal3.png" alt="" class="img-fluid galeri3">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal4.png" alt="" class="img-fluid galeri4">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img src="assets/img/gal1.png" alt="" class="img-fluid galeri1">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <img src="assets/img/gal1.png" alt="" class="img-fluid galeri1">
+                    <div class="carousel-item">
+                        <div class="row ml-0 mr-0">
+                            <div class="col-md-6 col-sm-12 ml-0 mr-0">
+                                <div class="overlay-slide">
+                                    <img src="assets/img/gal2.png" alt="" class="img-fluid galeri2">
+                                    <div class="desc">
+                                        <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                        <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal3.png" alt="" class="img-fluid galeri3">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal4.png" alt="" class="img-fluid galeri4">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img src="assets/img/gal1.png" alt="" class="img-fluid galeri1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row ml-0 mr-0">
+                            <div class="col-md-6 col-sm-12 ml-0 mr-0">
+                                <div class="overlay-slide">
+                                    <img src="assets/img/gal2.png" alt="" class="img-fluid galeri2">
+                                    <div class="desc">
+                                        <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                        <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal3.png" alt="" class="img-fluid galeri3">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal4.png" alt="" class="img-fluid galeri4">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img src="assets/img/gal1.png" alt="" class="img-fluid galeri1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row ml-0 mr-0">
+                            <div class="col-md-6 col-sm-12 ml-0 mr-0">
+                                <div class="overlay-slide">
+                                    <img src="assets/img/gal2.png" alt="" class="img-fluid galeri2">
+                                    <div class="desc">
+                                        <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                        <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal3.png" alt="" class="img-fluid galeri3">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal4.png" alt="" class="img-fluid galeri4">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img src="assets/img/gal1.png" alt="" class="img-fluid galeri1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row ml-0 mr-0">
+                            <div class="col-md-6 col-sm-12 ml-0 mr-0">
+                                <div class="overlay-slide">
+                                    <img src="assets/img/gal2.png" alt="" class="img-fluid galeri2">
+                                    <div class="desc">
+                                        <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                        <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal3.png" alt="" class="img-fluid galeri3">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="overlay-slide">
+                                            <img src="assets/img/gal4.png" alt="" class="img-fluid galeri4">
+                                            <div class="desc">
+                                                <small class="text-muted mt-0">Ahad, 21-01-2020</small>
+                                                <h5 class="card-title">Memperingati Isra' Mi'raj</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img src="assets/img/gal1.png" alt="" class="img-fluid galeri1">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
             </div>
         </div>
     </section>
+
+
+    
 
 
 
