@@ -68,9 +68,15 @@
 }
 .artikel .artikel_terbaru .desc{
     position: absolute;
-    top: 180px;
+    margin-top: -76%;
     text-align: center;
     padding: 0 3%;
+    box-sizing: border-box;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.315);
+    width: 92%;
+    height: 96%;
+    border-radius: 4px;
 }
 .artikel .artikel_terbaru .desc h5{
     font-family: 'Montserrat';
@@ -91,6 +97,9 @@
     font-size: 18px;
     line-height: 27px;
     color: #F7F9F9;
+}
+.artikel .artikel_terbaru .btn{
+    margin-top: 250px !important;
 }
 .artikel .artikel_terbaru .btn-success{
     background: linear-gradient(354.43deg, #023B09 -67.3%, #00AF00 79.93%);
@@ -123,17 +132,11 @@
     overflow: hidden;
     margin-bottom: 16px;
 }
-.overlay-slide:hover .desc {
-    transform: translate(0, 0);
-	transition: all 0.2s ease-in;
-}
 .overlay-slide .desc {
 	position: absolute;
     box-sizing: border-box;
     bottom: 0;
-    transform: translate(0, 100%);
     background: linear-gradient(356.56deg, #023B09 -67.3%, #00AF00 79.93%);
-    transition: all 0.2s ease-in;
     width: 95%;
     height: 40%;
     padding: 20px 10px;
@@ -232,6 +235,18 @@
         text-align: center;
         display: block;
     }
+    .artikel .artikel_terbaru .desc{
+        position: absolute;
+        margin-top: -600px;
+        text-align: center;
+        padding: 0 3%;
+        box-sizing: border-box;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.315);
+        width: 94%;
+        height: 97%;
+        border-radius: 4px;
+    }
     .media-body h3 {
         font-family: 'Montserrat';
         font-style: normal;
@@ -259,6 +274,21 @@
         justify-content: center;
         text-align: center;
         display: block;
+    }
+    .artikel .artikel_terbaru .desc{
+        position: absolute;
+        margin-top: -76%;
+        text-align: center;
+        padding: 0 3%;
+        box-sizing: border-box;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.315);
+        width: 92%;
+        height: 96%;
+        border-radius: 4px;
+    }
+    .artikel .artikel_terbaru .btn{
+        margin-top: 250px !important;
     }
 }
 
@@ -290,5 +320,20 @@
         font-size: 14px;
         line-height: 24px;
         color: #333333;
+    }
+    .artikel .artikel_terbaru .desc{
+        position: absolute;
+        margin-top: -63%;
+        text-align: center;
+        padding: 0 3%;
+        box-sizing: border-box;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.315);
+        width: 90%;
+        height: 96%;
+        border-radius: 4px;
+    }
+    .artikel .artikel_terbaru .btn{
+        margin-top: 180px !important;
     }
 }

@@ -47,9 +47,6 @@ body{
 }
 
 /* hero */
-.hero{
-    padding: 140px 350px;
-}
 .hero .hero-body h2{
     font-family: 'Open Sans';
     font-style: normal;
@@ -58,6 +55,7 @@ body{
     line-height: 81px;
     letter-spacing: -0.04em;
     color: #00B000;
+    margin-top: 150px;
 }
 .hero .hero-body p{
     font-family: 'Open Sans';
@@ -85,14 +83,24 @@ body{
     font-size: 20px;
     margin-left: 10px;
 }
+.hero .bg-cewek{
+    position: absolute;
+}
+.hero .bg-cowok{
+    position: absolute;
+}
+.hero{
+    padding: 0;
+}
 
 /* about */
 .about{
-    margin: 58px 80px 54px 80px;
+    margin: 150px 80px 54px 80px;
     padding: 58px 0 85px 0;
     background: #FFFFFF;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
+    position: relative;
 }
 .about h3{
     font-family: 'Merriweather';
@@ -298,18 +306,21 @@ body{
     }
     /* hero */
     .hero {
-        padding: 80px 100px;
+        padding:  0;
     }
     .hero .hero-body h2{
-        font-size: 40px;
-        line-height: 60px;
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 80px;
     }
     .hero .hero-body p{
+        font-size: 15px;
         line-height: 26px;
         text-align: justify;
     }
     .hero .hero-body .btn-success{
-        padding: 18px 45px;
+        padding: 16px 42px;
+        font-size: 16px;
     }
 
     /* tentang */
@@ -392,7 +403,6 @@ body{
         width: 100%;
     }
 
-
 }
 
 
@@ -450,6 +460,20 @@ body{
         opacity: 0.6;
         content: '';
     }
+    .hero{
+        padding: 0;
+    }
+    .hero .hero-body h2{
+        font-size: 36px;
+        margin-top: 60px;
+    }
+    .hero .hero-body p{
+        font-size: 16px;
+    }
+    .hero .hero-body .btn-success{
+        font-size: 18px;
+        padding: 20px 48px;
+    }
 }
 
 
@@ -498,7 +522,7 @@ body{
     
     /* hero */
     .hero{
-        padding: 140px 350px;
+        padding: 0;
     }
     .hero .hero-body h2{
         font-family: 'Open Sans';
@@ -508,6 +532,7 @@ body{
         line-height: 81px;
         letter-spacing: -0.04em;
         color: #00B000;
+        margin-top: 150px;
     }
     .hero .hero-body p{
         font-family: 'Open Sans';
@@ -538,7 +563,8 @@ body{
     
     /* about */
     .about{
-        margin: 58px 80px 54px 80px;
+        position: relative;
+        margin: 150px 80px 54px 80px;
         padding: 58px 0 90px 0;
         background: #FFFFFF;
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);

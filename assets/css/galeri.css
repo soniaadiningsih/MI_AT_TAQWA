@@ -62,17 +62,11 @@ body{
     box-sizing: border-box;
     overflow: hidden;
 }
-.galeri .overlay-slide:hover .desc {
-    transform: translate(0, 0);
-	transition: all 0.2s ease-in;
-}
 .galeri .overlay-slide .desc {
 	position: absolute;
     box-sizing: border-box;
     bottom: 0;
-    transform: translate(0, 100%);
-    background: linear-gradient(218.02deg, #023B09 0%, #00AF00 61.61%);
-    transition: all 0.2s ease-in;
+    background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
     width: 100%;
     height: 50%;
     padding: 10px;
@@ -99,21 +93,47 @@ body{
     margin-bottom: 60px !important;
     margin-top: 30px;
 }
-.galeri .galeri1{
-    position: relative;
+.img .galeri1{
+	position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.galeri .galeri1::before{
+
+.img .youtube{
     position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
     width: 95%;
-    height: 85%;
-    top: 0;
-    left: 15px;
-    background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
-    opacity: 0.6;
-    content: '';
-    z-index: 1;
-    padding: 0;
-    
+    height: 100%;
+    padding-top: 40%;
+}
+ .img .desc {
+	position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 10px;
+}
+.img .desc p{
+    padding-top: 80%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 21px;
+    color: #FFFFFF !important;
+}
+.img .desc h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
 }
 
 .carousel-indicators li{
@@ -164,8 +184,49 @@ body{
 
 @media (min-width: 576px){
     .galeri .galeri1{
-        margin-bottom: 30px;
+        margin-bottom: 80px;
         margin-top: 30px;
+    }
+    .galeri .img .youtube{
+        margin-top: -70%;
+    }
+    .img .youtube {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 95%;
+        height: 83%;
+        top: 66%;
+        padding-top: 40%;
+    }
+    .carousel .img .youtube{
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 94%;
+        height: 81%;
+        top: 66%;
+        padding-top: 40%;
+    }
+    .img .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 90px;
+        padding: 10px;
+    }
+    .galeri .desc h5{
+        font-size: 16px;
+    }
+    .carousel .youtube{
+        margin-top: -70%;
     }
 }
 
@@ -174,11 +235,95 @@ body{
         margin-bottom: 0;
         margin-top: 0;
     }
+    .img .youtube{
+        margin-top: -70%;
+    }
+    .carousel .youtube{
+        margin-top: -70%;
+    }
+    /* .img .galeri1{
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    .img .youtube{
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        width: 45.3%;
+        height: 100%;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        top: 50%;
+    }
+     .img .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 4%;
+        height: 600px;
+        padding: 10px;
+        top: 10px;
+    }
+    .img .desc p{
+        margin-top: 500px;
+    } */
 }
 
 @media (min-width: 768px){
     .galeri .galeri1{
         margin-bottom: 0;
         margin-top: 0;
+    }
+    .galeri .img-2 .galeri2{
+        margin-top: 0px;
+    }
+    .img .youtube{
+        margin-top: -60% !important;
+    }
+    .carousel .youtube{
+        margin-top: -60%;
+    }
+    .img .youtube {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 91%;
+        height: 99%;
+        top: 66%;
+        padding-top: 40%;
+    }
+    .carousel .img .youtube {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 92%;
+        height: 100%;
+        top: 66%;
+        padding-top: 40%;
+    }
+    .img .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0px;
+        padding: 10px;
+    }
+    .galeri .col-sm .desc h5{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .galeri .col-sm .desc p{
+        font-size: 10px;
     }
 }
