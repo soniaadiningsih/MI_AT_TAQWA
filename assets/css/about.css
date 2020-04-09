@@ -164,7 +164,7 @@ body{
 
 
 /* responsive */
-@media (min-width: 576px){
+@media (max-width: 576px){
     /* tentang */
     .about {
         margin: 50px 30px 0 30px;
@@ -212,13 +212,22 @@ body{
 
 
 @media (min-width: 768px){
-    .about .img .youtube{
-        margin-left: 10%;
-        top: -20px;
+    .about{
+        padding: 58px 20px 100px 20px;
     }
-    .about .img .img-two::before{
+    .about .img .youtube{
+        margin-left: px;
+        margin-right: 0;
+        margin-bottom: px;
+    }
+    .about .img-two{
+        margin-left: 0;
+        width: 70%;
+        margin-top: -250px;
+    }
+    .about .img-two::before{
         position: absolute;
-        width: 100%;
+        width: 98%;
         height: 100%;
         top: 0;
         left: 0;
