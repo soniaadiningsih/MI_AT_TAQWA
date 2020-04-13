@@ -284,6 +284,19 @@ body{
         display: block;
         margin-left: 0px;
     }
+    .badge-success {
+        padding: 41px 135px !important;
+        border-radius: 0 !important;
+        color: #fff;
+        background-color: #28a745;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px !important;
+        line-height: 39px;
+        color: #FFFFFF;
+        border-radius: 12px 12px 0 0 !important;
+    }
 }
 
 @media (min-width: 768px){

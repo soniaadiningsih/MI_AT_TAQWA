@@ -408,7 +408,7 @@ body{
     .galeri .img .img-1 .galeri1::before{
         position: absolute;
         width: 94%;
-        height: 80%;
+        height: 86%;
         top: 0;
         left: 15px;
         background: linear-gradient(252.5deg, #023B09 0%, #00AF00 61.61%);
