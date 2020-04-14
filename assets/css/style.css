@@ -379,8 +379,10 @@ body{
         margin-bottom: 55px;
     }
 
-    .media {
+    .header .navbar .media {
         flex-direction: column;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
     }
 
 

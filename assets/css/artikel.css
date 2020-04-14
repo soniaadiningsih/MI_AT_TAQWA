@@ -230,6 +230,7 @@
         height: 50%;
         margin-top: 10px;
         margin-bottom: 10px;
+        object-fit: cover;
     }
     .artikel .artikel_terbaru .desc {
         position: absolute;
@@ -250,6 +251,7 @@
         width: 94%;
         height: 50%;
         border-radius: 4px;
+        object-fit: cover;
     }
     .media-body h3 {
         font-family: 'Montserrat';
