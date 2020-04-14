@@ -249,12 +249,12 @@ body{
         background: #FFFFFF;
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
         border-radius: 12px;
-        margin: 0 50px;
+        margin: 0 15px;
         margin-top: -83px;
         position: relative;
     }
     .detail p {
-        padding: 30px 52px;
+        padding: 30px 15px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: normal;
@@ -269,33 +269,50 @@ body{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: bold;
-        font-size: 24px;
-        line-height: 41px;
+        font-size: 19px;
+        line-height: 28px;
         text-transform: uppercase;
         color: #333333;
         margin-top: 22px;
-        margin-left: 36px;
-        text-align: center;
+        margin-left: 6px;
     }
     .detail .sosial {
-        margin-top: 0;
-        margin-bottom: 50px;
+        margin-top: -26px;
+        margin-bottom: 43px;
         text-align: center;
         display: block;
-        margin-left: 0px;
+        margin-left: 40px;
+    }
+    .detail .sosial .user {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 27px;
+        color: #333333;
+    }
+    .detail .sosial img {
+        padding: 0 6px;
     }
     .badge-success {
-        padding: 41px 135px !important;
+        padding: 20px 30px !important;
         border-radius: 0 !important;
         color: #fff;
         background-color: #28a745;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: normal;
-        font-size: 26px !important;
+        font-size: 12px !important;
         line-height: 39px;
         color: #FFFFFF;
-        border-radius: 12px 12px 0 0 !important;
+    }
+    .badge-success span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 72px;
+        color: #FFFFFF;
     }
 }
 
